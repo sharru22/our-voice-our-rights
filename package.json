@@ -1,0 +1,40 @@
+{
+  "name": "mgnrega-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint",
+    "etl": "ts-node worker/etl.ts",
+    "db:migrate": "node scripts/migrate.js"
+  },
+  "dependencies": {
+    "autoprefixer": "10.4.20",
+    "clsx": "2.1.1",
+    "dotenv": "16.4.5",
+    "i18next": "23.14.0",
+    "i18next-browser-languagedetector": "8.0.0",
+    "next": "14.2.11",
+    "node-fetch": "3.3.2",
+    "pg": "8.12.0",
+    "postcss": "8.4.47",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-i18next": "14.1.2",
+    "tailwindcss": "3.4.10",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "22.7.5",
+    "@types/pg": "^8.15.6",
+    "@types/react": "18.3.8",
+    "@types/react-dom": "18.3.0",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.11",
+    "prettier": "3.3.3",
+    "ts-node": "10.9.2",
+    "typescript": "5.6.3"
+  }
+}

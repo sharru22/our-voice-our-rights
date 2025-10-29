@@ -1,0 +1,9 @@
+{
+  "name": "Our Voice, Our Rights",
+  "short_name": "MGNREGA",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e40af",
+  "icons": []
+}
